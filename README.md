@@ -124,18 +124,18 @@ Join the telegram [support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6Aj
 ### Roadmap
 
 - Restore packages
-```"react-app:build": "yarn workspace @scaffold-eth/react-app build --max-old-space-size=12288",
-    "react-app:eject": "yarn workspace @scaffold-eth/react-app eject",
-    "react-app:start": "yarn workspace @scaffold-eth/react-app start",
-    "react-app:test": "yarn workspace @scaffold-eth/react-app test",
-    "build": "yarn workspace @scaffold-eth/react-app build --max-old-space-size=12288",
-    "prettier": "yarn workspace @scaffold-eth/react-app prettier",
-    "start": "yarn workspace @scaffold-eth/react-app start",
-    "ipfs": "yarn workspace @scaffold-eth/react-app ipfs",
-    "surge": "yarn workspace @scaffold-eth/react-app surge",
-    "s3": "yarn workspace @scaffold-eth/react-app s3",
-    "ship": "yarn workspace @scaffold-eth/react-app ship",
-    "theme": "yarn workspace @scaffold-eth/react-app theme",
-    "watch-theme": "yarn workspace @scaffold-eth/react-app watch",
+```"react-app:build": "yarn workspace @scaffold-vueth/react-app build --max-old-space-size=12288",
+    "react-app:eject": "yarn workspace @scaffold-vueth/react-app eject",
+    "react-app:start": "yarn workspace @scaffold-vueth/react-app start",
+    "react-app:test": "yarn workspace @scaffold-vueth/react-app test",
+    "build": "yarn workspace @scaffold-vueth/react-app build --max-old-space-size=12288",
+    "prettier": "yarn workspace @scaffold-vueth/react-app prettier",
+    "start": "yarn workspace @scaffold-vueth/react-app start",
+    "ipfs": "yarn workspace @scaffold-vueth/react-app ipfs",
+    "surge": "yarn workspace @scaffold-vueth/react-app surge",
+    "s3": "yarn workspace @scaffold-vueth/react-app s3",
+    "ship": "yarn workspace @scaffold-vueth/react-app ship",
+    "theme": "yarn workspace @scaffold-vueth/react-app theme",
+    "watch-theme": "yarn workspace @scaffold-vueth/react-app watch",
 ```
-- 
+-

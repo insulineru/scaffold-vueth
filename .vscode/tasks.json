@@ -6,7 +6,7 @@
             "script": "start",
             "problemMatcher": [],
             "label": "yarn: start",
-            "detail": "yarn workspace @scaffold-eth/react-app start",
+            "detail": "yarn workspace @scaffold-vueth/react-app start",
             "isBackground": true,
             "presentation": {
                 "reveal": "always",
@@ -21,7 +21,7 @@
             "type": "npm",
             "script": "chain",
             "label": "yarn: chain",
-            "detail": "yarn workspace @scaffold-eth/hardhat chain",
+            "detail": "yarn workspace @scaffold-vueth/hardhat chain",
             "isBackground": true,
             "presentation": {
                 "reveal": "always",
@@ -50,7 +50,7 @@
             "script": "watch",
             "problemMatcher": [],
             "label": "yarn: deploy",
-            "detail": "yarn workspace @scaffold-eth/hardhat watch",
+            "detail": "yarn workspace @scaffold-vueth/hardhat watch",
             "presentation": {
                 "reveal": "always",
                 "panel": "shared"
