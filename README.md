@@ -45,7 +45,7 @@ yarn deploy
 
 💼 Edit your deployment scripts in `packages/hardhat/deploy`
 
-📱 Open http://localhost:3000 to see the app
+📱 Open http://localhost:3333 to see the app
 
 # 📚 Documentation
 
@@ -124,13 +124,7 @@ Join the telegram [support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6Aj
 ### Roadmap
 
 - Restore packages
-```"react-app:build": "yarn workspace @scaffold-vueth/react-app build --max-old-space-size=12288",
-    "react-app:eject": "yarn workspace @scaffold-vueth/react-app eject",
-    "react-app:start": "yarn workspace @scaffold-vueth/react-app start",
-    "react-app:test": "yarn workspace @scaffold-vueth/react-app test",
-    "build": "yarn workspace @scaffold-vueth/react-app build --max-old-space-size=12288",
-    "prettier": "yarn workspace @scaffold-vueth/react-app prettier",
-    "start": "yarn workspace @scaffold-vueth/react-app start",
+``` "prettier": "yarn workspace @scaffold-vueth/react-app prettier",
     "ipfs": "yarn workspace @scaffold-vueth/react-app ipfs",
     "surge": "yarn workspace @scaffold-vueth/react-app surge",
     "s3": "yarn workspace @scaffold-vueth/react-app s3",

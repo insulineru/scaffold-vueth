@@ -10,6 +10,11 @@
   ],
   "private": true,
   "scripts": {
+    "vue-app:start": "yarn workspace @scaffold-vueth/vue-app dev",
+    "vue-app:build": "yarn workspace @scaffold-vueth/vue-app build --max-old-space-size=12288",
+    "vue-app:test": "yarn workspace @scaffold-vueth/vue-app test",
+    "vue-app:lint": "yarn workspace @scaffold-vueth/vue-app lint",
+    "vue-app:typecheck": "yarn workspace @scaffold-vueth/vue-app typecheck",
     "chain": "yarn workspace @scaffold-vueth/hardhat chain",
     "fork": "yarn workspace @scaffold-vueth/hardhat fork",
     "node": "yarn workspace @scaffold-vueth/hardhat chain",

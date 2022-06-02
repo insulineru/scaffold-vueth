@@ -1,6 +1,6 @@
 # 🏄‍♂️ Using Docker
 
-Prerequisites: 
+Prerequisites:
 - [Docker](https://docs.docker.com/engine/install/)
 - [Git](https://git-scm.com/)
 - Bash Shell: available in macOS by default and the vast majority of Linux distros
@@ -55,7 +55,7 @@ docker run \
   --name SCAFFOLD_ETH \
   -v `pwd`:/opt/scaffold-eth \
   -w /opt/scaffold-eth \
-  -p 3000:3000 \
+  -p 3333:3333 \
   -p 8545:8545 \
   --entrypoint /bin/bash \
   -ti node:16
@@ -67,4 +67,4 @@ docker run \
 
 💼 Edit your deployment scripts in `packages/hardhat/deploy`
 
-📱 Open http://localhost:3000 to see the app
+📱 Open http://localhost:3333 to see the app
