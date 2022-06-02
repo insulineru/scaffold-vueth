@@ -1,0 +1,47 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+
+    timeout-minutes: 10
+
+    strategy:
+      matrix:
+        node_version: [14.x, 16.x]
+        os: [ubuntu-latest, windows-latest]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set node version to ${{ matrix.node_version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - uses: c-hive/gha-yarn-cache@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build frontend
+        run: yarn vue-app:build
+
+      - name: Test frontend
+        run: yarn vue-app:test
+
+      - name: Lint frontend
+        run: yarn vue-app:lint
+
+      - name: TypeCheck frontend
+        run: yarn vue-app:typecheck
