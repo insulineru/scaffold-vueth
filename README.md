@@ -45,7 +45,7 @@ yarn deploy
 
 💼 Edit your deployment scripts in `packages/hardhat/deploy`
 
-📱 Open http://localhost:3000 to see the app
+📱 Open http://localhost:3333 to see the app
 
 # 📚 Documentation
 
@@ -85,7 +85,7 @@ Documentation, tutorials, challenges, and many more resources, visit: [docs.scaf
 
 Check out all the [active branches](https://github.com/scaffold-eth/scaffold-eth/branches/active), [open issues](https://github.com/scaffold-eth/scaffold-eth/issues), and join/fund the 🏰 [BuidlGuidl](https://BuidlGuidl.com)!
 
-  
+
  - 🚤  [Follow the full Ethereum Speed Run](https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c)
 
 
@@ -120,3 +120,16 @@ Join the telegram [support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6Aj
 ### Automated with Gitpod
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/scaffold-eth/scaffold-eth)
+
+### Roadmap
+
+- Restore packages
+``` "prettier": "yarn workspace @scaffold-vueth/react-app prettier",
+    "ipfs": "yarn workspace @scaffold-vueth/react-app ipfs",
+    "surge": "yarn workspace @scaffold-vueth/react-app surge",
+    "s3": "yarn workspace @scaffold-vueth/react-app s3",
+    "ship": "yarn workspace @scaffold-vueth/react-app ship",
+    "theme": "yarn workspace @scaffold-vueth/react-app theme",
+    "watch-theme": "yarn workspace @scaffold-vueth/react-app watch",
+```
+-

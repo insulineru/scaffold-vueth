@@ -9,7 +9,7 @@ if [ "$1" = "start" ]; then
     --name SCAFFOLD_ETH \
     -v `pwd`:/opt/scaffold-eth \
     -w /opt/scaffold-eth \
-    -p 3000:3000 \
+    -p 3333:3333 \
     -p 8545:8545 \
     -dt node:16 || docker restart SCAFFOLD_ETH
 
@@ -26,5 +26,3 @@ else
     echo "Invalid command. Choose 'start' or 'deploy'."
   fi
 fi
-
-

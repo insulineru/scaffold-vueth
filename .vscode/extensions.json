@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "JuanBlanco.solidity",
+    "tintinweb.solidity-visual-auditor",
+    "antfu.vite",
+    "antfu.iconify",
+    "antfu.unocss",
+    "antfu.goto-alias",
+    "vue.volar",
+    "dbaeumer.vscode-eslint",
+    "RedVanWorkshop.explorer-exclude-vscode-extension"
+  ]
+}
